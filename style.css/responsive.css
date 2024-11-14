@@ -13,9 +13,11 @@
         margin-top: 0rem;
 
     }
-    .topp{
+
+    .topp {
         font-size: 37px;
     }
+
     #content2 {
         margin-top: 36rem;
     }
@@ -47,6 +49,10 @@
     }
 
     #content {
+        margin-top: -1em;
+    }
+
+    #content2 {
         margin-top: 42rem;
     }
 
