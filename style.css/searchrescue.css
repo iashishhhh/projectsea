@@ -39,7 +39,10 @@ body {
     color: black;
     font-size: 14px;
     text-transform: uppercase;
+}
 
+#text11 {
+    font-size: 35px;
 }
 
 .btntop {
@@ -260,7 +263,6 @@ h3 {
 
     #content #h2 {
         font-size: 25px;
-        line-height: 25px;
         margin-top: 2rem;
     }
 
@@ -283,8 +285,7 @@ h3 {
 
 #h2 {
     font-size: 35px;
-    line-height: 47.95px;
-    letter-spacing: 0.03em;
+
     text-align: left;
 
 }
@@ -327,7 +328,6 @@ h3 {
     font-weight: normal;
     font-family: "Barlow", sans-serif;
     font-weight: 400;
-    line-height: 27.37px;
 }
 
 .txt {
@@ -388,6 +388,7 @@ h3 {
     letter-spacing: 0.03em;
     text-align: left;
 }
+
 #txt2 {
     font-size: 35px;
     background-color: #6492E3CC;
@@ -466,6 +467,7 @@ h3 {
         max-width: 100%;
         margin-bottom: 15px;
         margin: 0%;
+        height: fit-content;
     }
 
     #txt1 {
@@ -596,7 +598,7 @@ h3 {
         top: 40px;
         left: 15%;
         width: 70%;
-        height: 120px;
+        height: 213px;
         z-index: 2;
     }
 
@@ -808,11 +810,10 @@ h3 {
     .absolute {
         position: static;
         display: flex;
-        flex-direction: column;
         align-items: center;
         gap: 1rem;
         margin-top: 1rem;
-        padding: 0;
+        padding-right: 10px;
     }
 
     .card {
@@ -854,13 +855,18 @@ h3 {
 
 @media (max-width: 768px) {
     #step9 {
-        padding: 71rem;
+        padding: 35rem;
         background-repeat: no-repeat;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
         padding-bottom: 2rem;
     }
+
+    .gap-5 {
+        gap: 1rem !important;
+    }
+
 }
 
 @media (max-width: 576px) {

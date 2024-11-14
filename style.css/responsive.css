@@ -1,0 +1,131 @@
+@media (max-width: 1007px) {
+    .topp {
+        font-size: 34px;
+    }
+
+    #h2 {
+        font-size: 21px;
+        text-align: left;
+    }
+
+    #step3 img {
+        max-width: 100%;
+        height: auto;
+        padding-top: 2rem;
+    }
+
+    .p2 {
+        font-size: 12px;
+        font-family: "Barlow", sans-serif;
+        font-weight: 400;
+    }
+
+    .txt {
+        font-size: 18px;
+        background-color: #6492E3CC;
+        height: auto;
+        width: auto;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+    }
+
+    #txt1 {
+        font-size: 2rem;
+        background-color: #6492E3CC;
+        height: auto;
+        width: fit-content;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 9em;
+        line-height: 47.95px;
+        letter-spacing: 0.03em;
+        text-align: left;
+    }
+
+    #txt2 {
+        font-size: 30px;
+        background-color: #6492E3CC;
+        height: auto;
+        width: fit-content;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 18rem;
+        line-height: 47.95px;
+        letter-spacing: 0.03em;
+        text-align: left;
+    }
+
+    .our {
+        font-size: 1.5rem;
+        margin-top: 23rem;
+    }
+
+    #bg {
+        font-size: 22px;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .p2txt {
+        font-size: 12px;
+        font-weight: normal;
+        font-family: "Barlow", sans-serif;
+        font-weight: 400;
+        line-height: 27.37px;
+    }
+
+
+
+    .card {
+        height: 210px;
+        width: 230px;
+        padding: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        justify-content: flex-end;
+    }
+
+    .step8h2 {
+        font-size: 23px;
+    }
+
+    .img99 {
+        width: 100%;
+        height: -webkit-fill-available;
+    }
+
+    #h29 {
+        font-size: 21px;
+        margin-top: 1rem;
+
+    }
+
+    #content {
+        margin-top: 2.25rem !important;
+    }
+
+    h2.our1 {
+        margin-top: 2rem;
+    }
+
+    .card1 {
+        width: 230px;
+        height: 210px;
+
+    }
+
+    .maincc {
+        margin-top: -7.5rem !important;
+
+    }
+
+}
