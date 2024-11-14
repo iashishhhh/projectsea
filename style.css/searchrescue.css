@@ -22,7 +22,7 @@ body {
     font-family: "Barlow", sans-serif;
     font-weight: 100;
     font-style: normal;
-    background-image: url(Homehero.jpg);
+    background-image: url(imgbg/Homehero.jpg);
     background-repeat: no-repeat;
     width: 100%;
     height: 800px;
@@ -113,6 +113,7 @@ body {
         padding: 5px;
 
     }
+
     .btnhead {
         color: white;
         background-color: #FF696A;
@@ -182,7 +183,7 @@ body {
 }
 
 #bgimg {
-    background-image: url(PODbg.jpg);
+    background-image: url(imgbg/PODbg.jpg);
     height: 487px;
     background-repeat: no-repeat;
     font-family: "League Spartan", sans-serif;
@@ -302,7 +303,7 @@ h3 {
 }
 
 #img2 {
-    background-image: url(rescueboard.jpeg);
+    background-image: url(imgbg/rescueboard.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -328,7 +329,7 @@ h3 {
 }
 
 #img3 {
-    background-image: url(celebrate.jpeg);
+    background-image: url(imgbg/celebrate.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -336,7 +337,7 @@ h3 {
 }
 
 #imgg1 {
-    background-image: url(shiprescue.jpeg);
+        background-image: url(imgbg/shiprescue.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -344,7 +345,7 @@ h3 {
 }
 
 #imgg2 {
-    background-image: url(beach.jpeg);
+    background-image: url(imgbg/beach.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -352,7 +353,7 @@ h3 {
 }
 
 #imgg3 {
-    background-image: url(rescuer.jpeg);
+    background-image: url(imgbg/rescuer.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -470,7 +471,7 @@ h3 {
 }
 
 .image5 {
-    background-image: url(sky.jpeg);
+    background-image: url(imgbg/sky.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -626,7 +627,7 @@ h3 {
 }
 
 .step8img {
-    background-image: url(volenteer.jpeg);
+    background-image: url(imgbg/volenteer.jpeg);
     background-size: cover;
     background-position: center;
     height: 874px;
@@ -841,7 +842,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 498px;
-    background-image: url(ocean.jpeg);
+    background-image: url(imgbg/ocean.jpeg);
     z-index: 1;
     background-size: cover;
     background-position: center;
@@ -859,7 +860,7 @@ h3 {
 }
 
 .card1 {
-    background-image: url(buggy.jpeg);
+    background-image: url(imgbg/buggy.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -869,7 +870,7 @@ h3 {
 }
 
 .card2 {
-    background-image: url(security.png);
+    background-image: url(imgbg/security.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -878,7 +879,7 @@ h3 {
 }
 
 .card3 {
-    background-image: url(lifeguard.jpeg);
+    background-image: url(imgbg/lifeguard.jpeg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -932,7 +933,7 @@ h3 {
 }
 
 .footer {
-    background-image: url(Group15.jpg);
+    background-image: url(imgbg/Group15.jpg);
     padding-top: 6rem;
     background-size: cover;
     background-position: center center;
