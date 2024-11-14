@@ -125,6 +125,19 @@ body {
         margin-bottom: 5px;
     }
 
+    .top {
+        font-size: 2rem;
+    }
+
+    .header {
+        background-image: url(imgbg/Homehero.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: left;
+        height: auto;
+        padding-bottom: 3rem;
+    }
+
     .btntop {
         margin-bottom: 1rem;
     }
@@ -326,6 +339,7 @@ h3 {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    text-align: center;
 }
 
 #img3 {
@@ -337,7 +351,7 @@ h3 {
 }
 
 #imgg1 {
-        background-image: url(imgbg/shiprescue.jpeg);
+    background-image: url(imgbg/shiprescue.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -360,13 +374,11 @@ h3 {
     height: 520px;
 }
 
-#txt1,
-#txt2,
-#txt3 {
+#txt1 {
     font-size: 35px;
     background-color: #6492E3CC;
     height: auto;
-    width: auto;
+    width: fit-content;
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -375,7 +387,20 @@ h3 {
     line-height: 47.95px;
     letter-spacing: 0.03em;
     text-align: left;
-
+}
+#txt2 {
+    font-size: 35px;
+    background-color: #6492E3CC;
+    height: auto;
+    width: fit-content;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 9em;
+    line-height: 47.95px;
+    letter-spacing: 0.03em;
+    text-align: left;
 }
 
 
@@ -399,6 +424,11 @@ h3 {
         padding: 15px;
         text-align: center;
         height: 100vh;
+        text-align: center;
+        background-image: url(imgbg/rescueboard.jpeg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
     }
 
 
@@ -420,8 +450,13 @@ h3 {
         text-align: center;
     }
 
+    #small {
+        width: 80%;
+    }
+
+
     .txt {
-        width: auto;
+        width: fit-content;
         height: auto;
     }
 
@@ -433,13 +468,34 @@ h3 {
         margin: 0%;
     }
 
-    #txt1,
-    #txt2,
-    #txt3 {
+    #txt1 {
+        font-size: 2rem;
+        background-color: #6492E3CC;
         height: auto;
-        width: auto;
-        margin-top: 279px;
-        font-size: 14px;
+        width: fit-content;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 9em;
+        line-height: 47.95px;
+        letter-spacing: 0.03em;
+        text-align: left;
+    }
+
+    #txt2 {
+        font-size: 28px;
+        background-color: #6492E3CC;
+        height: auto;
+        width: fit-content;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 9em;
+        line-height: 47.95px;
+        letter-spacing: 0.03em;
+        text-align: left;
     }
 }
 
@@ -685,9 +741,10 @@ h3 {
 
 .absolute {
     position: absolute;
-    bottom: -268rem;
+    bottom: -250rem;
     right: 0;
     width: 100%;
+    padding-right: 10rem;
     display: flex;
     gap: 4rem;
     justify-content: flex-end;
@@ -930,6 +987,34 @@ h3 {
     height: 326px;
     width: 326px;
     background-color: #C4C4C4;
+}
+
+#for1 {
+    background-image: url(imgbg/buggy.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#for2 {
+    background-image: url(imgbg/beach.jpeg );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#for3 {
+    background-image: url(imgbg/rescueboard.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#for4 {
+    background-image: url(imgbg/lifeguard.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .footer {
