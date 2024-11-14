@@ -1,3 +1,24 @@
+@media (max-width: 1024px) {
+    .absolute {
+        bottom: -295em;
+        padding-left: 11rem;
+        padding-right: 1rem;
+    }
+
+    .our {
+        margin-top: 24rem;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 35px;
+    }
+
+    .h29 {
+        margin-top:1rem;
+    }
+}
+
 @media (max-width: 425px) {
     .absolute {
         position: static;
@@ -19,7 +40,12 @@
     }
 
     #content2 {
-        margin-top: 36rem;
+        margin-top: 38rem;
+    }
+
+    .our {
+        font-size: 1.5rem;
+        margin-top: 16rem;
     }
 
     .maincc {
@@ -41,11 +67,16 @@
     }
 }
 
+
 @media (max-width: 320px) {
 
     #card {
         height: 268px;
         width: 290px;
+    }
+
+    #txt1 {
+        font-size: 25px;
     }
 
     #content {
