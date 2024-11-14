@@ -1,131 +1,118 @@
-@media (max-width: 1007px) {
-    .topp {
-        font-size: 34px;
+@media (max-width: 425px) {
+
+    .absolute {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+        padding: 0;
     }
 
-    #h2 {
-        font-size: 21px;
-        text-align: left;
+    #content {
+        margin-top: 0rem;
+
+    }
+    .topp{
+        font-size: 37px;
+    }
+    #content2 {
+        margin-top: 36rem;
     }
 
-    #step3 img {
-        max-width: 100%;
-        height: auto;
-        padding-top: 2rem;
+    .maincc {
+        padding-top: 22rem;
     }
 
-    .p2 {
-        font-size: 12px;
-        font-family: "Barlow", sans-serif;
-        font-weight: 400;
+    #card {
+        height: 260px;
+        width: 389px;
     }
 
-    .txt {
-        font-size: 18px;
-        background-color: #6492E3CC;
-        height: auto;
-        width: auto;
+}
+
+@media (max-width: 375px) {
+
+    #card {
+        height: 206px;
+        width: 327px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    #card {
+        height: 268px;
+        width: 290px;
+    }
+
+    #content {
+        margin-top: 42rem;
+    }
+
+    .fourcol {
+        height: 326px;
+        width: 100%;
+        background-color: #C4C4C4;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    #step9 {
+        padding: 40rem;
+        background-repeat: no-repeat;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
-        font-style: normal;
-        text-align: center;
+        padding-bottom: 2rem;
+
     }
 
-    #txt1 {
-        font-size: 2rem;
-        background-color: #6492E3CC;
-        height: auto;
-        width: fit-content;
-        font-family: "League Spartan", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-        margin-top: 9em;
-        line-height: 47.95px;
-        letter-spacing: 0.03em;
-        text-align: left;
-    }
-
-    #txt2 {
-        font-size: 30px;
-        background-color: #6492E3CC;
-        height: auto;
-        width: fit-content;
-        font-family: "League Spartan", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-        margin-top: 18rem;
-        line-height: 47.95px;
-        letter-spacing: 0.03em;
-        text-align: left;
+    .fourcol {
+        height: 326px;
+        width: 100%;
+        background-color: #C4C4C4;
     }
 
     .our {
         font-size: 1.5rem;
-        margin-top: 23rem;
+        margin-top: 26rem;
     }
 
-    #bg {
-        font-size: 22px;
+    .h2step10 {
+        font-size: 35px;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
-        font-style: normal;
-    }
-
-    .p2txt {
-        font-size: 12px;
-        font-weight: normal;
-        font-family: "Barlow", sans-serif;
-        font-weight: 400;
-        line-height: 27.37px;
-    }
-
-
-
-    .card {
-        height: 210px;
-        width: 230px;
-        padding: 1rem;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        border-radius: 5px;
-        justify-content: flex-end;
-    }
-
-    .step8h2 {
-        font-size: 23px;
-    }
-
-    .img99 {
-        width: 100%;
-        height: -webkit-fill-available;
-    }
-
-    #h29 {
-        font-size: 21px;
-        margin-top: 1rem;
-
-    }
-
-    #content {
-        margin-top: 2.25rem !important;
-    }
-
-    h2.our1 {
-        margin-top: 2rem;
     }
 
     .card1 {
-        width: 230px;
-        height: 210px;
-
+        height: 170px;
+        width: 200px;
     }
 
-    .maincc {
-        margin-top: -7.5rem !important;
+    .card2 {
+        height: 170px;
+        width: 200px;
+    }
 
+    .card3 {
+        height: 170px;
+        width: 200px;
+    }
+
+    .overlap {
+        position: relative;
+        height: 300px;
+        margin-top: -10rem;
+    }
+
+    #small {
+        width: auto;
     }
 
 }
