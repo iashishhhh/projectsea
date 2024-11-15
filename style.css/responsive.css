@@ -26,3 +26,16 @@
         margin-top: 27rem;
     }
 }
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1440px) {
+    .absolute {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        margin-top: -19rem;
+        padding: 0;
+    }
+
+}

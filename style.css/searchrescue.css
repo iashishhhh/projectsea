@@ -781,39 +781,10 @@ h3 {
 
 /* Responsive adjustments */
 
-@media (max-width: 1440px) {
-    .absolute {
-        bottom: -290rem;
 
-    }
-}
-
-@media (max-width: 1496px) {
-    .absolute {
-        bottom: -288rem;
-
-    }
-}
-
-@media (max-width: 1300px) {
-    .absolute {
-        bottom: -295em;
-
-    }
-}
-
-@media (max-width: 900px) {
-    .absolute {
-        bottom: -295em;
-
-    }
-}
 
 @media (max-width: 992px) {
 
-    .absolute {
-        bottom: -200px;
-    }
 
     .card {
         width: 180px;
