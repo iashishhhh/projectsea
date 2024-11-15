@@ -1,7 +1,4 @@
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    .maincc {
-        /* padding-top: 7rem; */
-    }
 
     .box-13 {
         position: absolute;
@@ -28,15 +25,5 @@
 
     .our11 {
         margin-top: 27rem;
-    }
-}
-
-@media (min-width:1024px) {
-    .maincc {
-    
-        /* padding-bottom: 48rem; */
-    }
-    .box-12{
-            /* top: 67rem; */
     }
 }
