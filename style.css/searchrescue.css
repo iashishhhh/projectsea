@@ -9,6 +9,8 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    scrollbar-width: auto;
+    scrollbar-color: white black;
 }
 
 body {
@@ -29,9 +31,7 @@ body {
     background-position: center;
 }
 
-
 .nav-link {
-    font-family: "Barlow", sans-serif;
     font-family: "Barlow", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -375,7 +375,7 @@ h3 {
 }
 
 #txt1 {
-    font-size: 35px;
+    font-size: 28px;
     background-color: #6492E3CC;
     height: auto;
     width: fit-content;
@@ -383,7 +383,7 @@ h3 {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    margin-top: 9em;
+    margin-top: 14em;
     line-height: 47.95px;
     letter-spacing: 0.03em;
     text-align: left;
@@ -399,7 +399,7 @@ h3 {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    margin-top: 11em;
+    margin-top: 14em;
     line-height: 47.95px;
     letter-spacing: 0.03em;
     text-align: left;
@@ -615,6 +615,7 @@ h3 {
     font-style: normal;
     font-size: 35px;
 }
+
 .our11 {
     margin-top: 30%;
     font-family: "League Spartan", sans-serif;
@@ -645,11 +646,12 @@ h3 {
         font-size: 1.5rem;
         margin-top: 24rem;
     }
-    .our11{ 
+
+    .our11 {
         font-size: 1.5rem;
         margin-top: 24rem;
     }
-    
+
 
 
 }
