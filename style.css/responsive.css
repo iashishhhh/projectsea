@@ -58,7 +58,10 @@
         line-height: revert;
     }
 
-
+    #img2,
+    #img3 {
+        height: 400px;
+    }
 }
 
 @media (max-width :425px) {
@@ -151,7 +154,8 @@
 
     #step3 img {
         max-width: 100%;
-        height: 100vh;
+        height: auto;
+        margin-top: 4rem;
     }
 
     .our {
@@ -183,7 +187,8 @@
 
     #step9 img {
         max-width: 100%;
-        height: 100vh;
+        height: auto;
+        margin-top: 4rem;
     }
 
     .box-12 {
