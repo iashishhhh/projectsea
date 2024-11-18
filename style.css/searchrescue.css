@@ -9,6 +9,8 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    scrollbar-width: auto;
+    scrollbar-color: white black;
 }
 
 body {
@@ -245,26 +247,6 @@ h3 {
 
 
 
-/* step 2 media queries */
-@media (max-width: 800px) {
-    #bgimg {
-        background: none;
-        height: 200px;
-    }
-
-    .step3 {
-        margin-top: 167em;
-    }
-
-    #content #h2 {
-        font-size: 25px;
-        line-height: 25px;
-        margin-top: 2rem;
-    }
-
-
-}
-
 /* step 3 */
 #step3 {
     padding: 20px;
@@ -332,7 +314,7 @@ h3 {
     font-size: 35px;
     background-color: #6492E3CC;
     height: auto;
-    width: auto;
+    width: fit-content;
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -353,7 +335,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: fit-content;
+    height: auto;
 }
 
 #imgg2 {
@@ -361,7 +343,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: fit-content;
+    height: 520px;
 }
 
 #imgg3 {
@@ -369,7 +351,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: fit-content;
+    height: 520px;
 }
 
 #txt1 {
@@ -451,9 +433,7 @@ h3 {
         text-align: center;
     }
 
-    #small {
-        width: 80%;
-    }
+
 
 
     .txt {
@@ -469,7 +449,7 @@ h3 {
     }
 
     #txt1 {
-        font-size: 28px;
+        font-size: 25px;
         background-color: #6492E3CC;
         height: auto;
         width: fit-content;
@@ -485,7 +465,7 @@ h3 {
     }
 
     #txt2 {
-        font-size: 28px;
+        font-size: 25px;
         background-color: #6492E3CC;
         height: auto;
         width: fit-content;
@@ -628,10 +608,6 @@ h3 {
     font-family: "Barlow", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 27.37px;
-    text-align: center;
-    text-transform: none;
-
 }
 
 @media (max-width: 992px) {
@@ -1023,4 +999,26 @@ h3 {
     color: white;
     font-size: 14px;
     font-weight: 600;
+}
+
+.nav-link h1 {
+    font-size: 16px;
+}
+
+.Copyright {
+    background-color: #6492E3;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.nav-link-1 {
+    /* font-size: 20px; */
+    color: white;
+    text-decoration: none;
+
+}
+
+.slickimg {
+    max-width: 75%;
+    height: auto;
 }
