@@ -9,8 +9,6 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    scrollbar-width: auto;
-    scrollbar-color: white black;
 }
 
 body {
@@ -355,7 +353,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: auto;
+    height: fit-content;
 }
 
 #imgg2 {
@@ -363,7 +361,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 520px;
+    height: fit-content;
 }
 
 #imgg3 {
@@ -371,7 +369,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 520px;
+    height: fit-content;
 }
 
 #txt1 {
