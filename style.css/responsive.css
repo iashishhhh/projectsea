@@ -1,4 +1,15 @@
-@media (min-width: 320px) and (max-width: 500px) {
+@media (max-width: 320px) {
+    .card {
+        height: 183px;
+        width: 157%;
+        left: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 427px) {
 
     #navbarhead {
         padding: 5px;
@@ -86,11 +97,18 @@
     }
 
     #step3 {
-        margin-top: 104rem;
+        margin-top: 123rem;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
     }
+
+    #step3 img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 0rem;
+    }
+
 
     .p2txt {
         font-size: 13px;
@@ -226,6 +244,11 @@
         z-index: 2;
     }
 
+    .circlebg {
+        background-color: #6492E3CC;
+        height: 487px;
+    }
+
     .our {
         margin-top: 13rem;
         font-family: "League Spartan", sans-serif;
@@ -247,8 +270,19 @@
     }
 
     .card {
-        width: 100%;
-        max-width: 300px;
+        height: 183px;
+        width: 157%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        justify-content: flex-end;
+    }
+
+    .card-container {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        margin-top: 0rem;
+        justify-content: flex-end;
     }
 
     .box-12 {
@@ -268,12 +302,13 @@
     }
 
     #step9 {
-        margin-top: 91rem;
+        margin-top: 77rem;
         background-repeat: no-repeat;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
     }
+
 
     .maincc {
         margin-top: 0;
@@ -295,6 +330,25 @@
     #navbarhead {
         padding: 5px;
 
+    }
+
+    .card-container {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+        margin-top: -1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        justify-content: flex-end;
+    }
+
+    .card {
+        height: 176px;
+        width: 346px;
+        padding: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        justify-content: flex-end;
     }
 
     .btnhead {
@@ -378,7 +432,7 @@
     }
 
     #step3 {
-        margin-top: 104rem;
+        margin-top: 28rem;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
@@ -538,10 +592,6 @@
         padding: 0;
     }
 
-    .card {
-        width: 100%;
-        max-width: 300px;
-    }
 
     .box-12 {
         background-image: none;
@@ -550,7 +600,7 @@
     .overlap {
         position: relative;
         height: 300px;
-        margin-top: 17rem;
+        margin-top: 0rem;
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -559,8 +609,15 @@
         font-size: 25px;
     }
 
+    .card1,
+    .card2,
+    .card3 {
+        height: 209px;
+        width: 197px;
+    }
+
     #step9 {
-        margin-top: 44rem;
+        margin-top: 37rem;
         background-repeat: no-repeat;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
@@ -571,8 +628,19 @@
         margin-top: 0;
     }
 
+    .box-13 {
+        position: absolute;
+        top: 0px;
+        /* left: 15%; */
+        right: 0%;
+        width: 100%;
+        background: none;
+        height: 341px;
+        z-index: 2;
+    }
+
     .our11 {
-        margin-top: 24rem;
+        margin-top: -5rem;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
@@ -581,14 +649,34 @@
     }
 
     .step8h2 {
-        font-size: 26px;
+        font-size: 18px;
     }
 }
 
-@media (min-width: 780px) and (max-width: 900px) {
+
+@media (min-width: 992px) and (max-width: 1024px) {
     #navbarhead {
         padding: 5px;
 
+    }
+
+    .card-container {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+        margin-top: -13rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        justify-content: flex-end;
+    }
+
+    .card {
+        height: 173px;
+        width: 231px;
+        padding: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        justify-content: flex-end;
     }
 
     .btnhead {
@@ -658,7 +746,7 @@
     }
 
     #h2 {
-        font-size: 21px;
+        font-size: 17px;
         line-height: revert;
     }
 
@@ -667,9 +755,18 @@
         height: 400px;
     }
 
+    #bgimg {
+        background: none;
+    }
+
+    .p2 {
+        font-size: 12px;
+        font-family: "Barlow", sans-serif;
+        font-weight: 400;
+    }
 
     #step3 {
-        margin-top: 104rem;
+        margin-top: 0rem;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
@@ -691,7 +788,7 @@
 
     #img2 {
         text-align: center;
-        height: 100vh;
+        height: auto;
         text-align: center;
         background-image: url(imgbg/rescueboard.jpeg);
         background-repeat: no-repeat;
@@ -713,8 +810,13 @@
     }
 
     #img3 {
-        height: 100vh;
+        height: auto;
         text-align: center;
+    }
+
+    #text8 {
+        padding-left: 0%;
+        padding-right: 0%;
     }
 
 
@@ -733,7 +835,7 @@
     }
 
     #txt1 {
-        font-size: 25px;
+        font-size: 21px;
         background-color: #6492E3CC;
         height: auto;
         width: fit-content;
@@ -742,14 +844,12 @@
         font-weight: 700;
         font-style: normal;
         margin-top: 9em;
-        line-height: 47.95px;
-        letter-spacing: 0.03em;
         text-align: left;
 
     }
 
     #txt2 {
-        font-size: 25px;
+        font-size: 21px;
         background-color: #6492E3CC;
         height: auto;
         width: fit-content;
@@ -758,8 +858,6 @@
         font-weight: 700;
         font-style: normal;
         margin-top: 9em;
-        line-height: 47.95px;
-        letter-spacing: 0.03em;
         text-align: left;
 
     }
@@ -805,12 +903,13 @@
         top: 40px;
         left: 15%;
         width: 70%;
-        height: 120px;
+        height: 182px;
         z-index: 2;
     }
 
+
     .our {
-        margin-top: 38%;
+        margin-top: 23%;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
@@ -829,25 +928,32 @@
         padding: 0;
     }
 
-    .card {
-        width: 100%;
-        max-width: 300px;
-    }
 
+    .box-12 {
+        background-image: none;
+    }
 
     .overlap {
         position: relative;
         height: 300px;
-        margin-top: -5rem;
-
+        margin-top: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .h2step10 {
         font-size: 25px;
     }
 
+    .card1,
+    .card2,
+    .card3 {
+        height: 209px;
+        width: 197px;
+    }
+
     #step9 {
-        margin-top: 44rem;
+        margin-top: 37rem;
         background-repeat: no-repeat;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
@@ -858,8 +964,19 @@
         margin-top: 0;
     }
 
+    .box-13 {
+        position: absolute;
+        top: 0px;
+        /* left: 15%; */
+        right: 0%;
+        width: 100%;
+        background: none;
+        height: 341px;
+        z-index: 2;
+    }
+
     .our11 {
-        margin-top: 24rem;
+        margin-top: -5rem;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
@@ -868,21 +985,44 @@
     }
 
     .step8h2 {
-        font-size: 26px;
+        font-size: 18px;
     }
 }
 
-/* 
-@media(min-width: 1024px) and (max-width: 1360px) {
+@media (max-width: 1400px) {
+    .card-container {
+        display: flex;
+        gap: 2rem;
+        flex-direction: row;
+        margin-top: -20rem;
+        padding-right: 0rem;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1399px) {
     #navbarhead {
         padding: 5px;
 
     }
 
-    #step3 img {
-        max-width: 100%;
-        height: auto;
-        margin-top: 4rem;
+    .card-container {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+        margin-top: -13rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        justify-content: flex-end;
+    }
+
+    .card {
+        height: 173px;
+        width: 231px;
+        padding: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        justify-content: flex-end;
     }
 
     .btnhead {
@@ -947,12 +1087,12 @@
     }
 
     .topp {
-        font-size: 3rem;
+        font-size: 2rem;
         padding-top: 1rem;
     }
 
     #h2 {
-        font-size: 21px;
+        font-size: 17px;
         line-height: revert;
     }
 
@@ -961,9 +1101,18 @@
         height: 400px;
     }
 
+    #bgimg {
+        background: none;
+    }
+
+    .p2 {
+        font-size: 12px;
+        font-family: "Barlow", sans-serif;
+        font-weight: 400;
+    }
 
     #step3 {
-        margin-top: 0;
+        margin-top: 0rem;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
@@ -1011,6 +1160,11 @@
         text-align: center;
     }
 
+    #text8 {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
 
 
 
@@ -1036,8 +1190,6 @@
         font-weight: 700;
         font-style: normal;
         margin-top: 9em;
-        line-height: 47.95px;
-        letter-spacing: 0.03em;
         text-align: left;
 
     }
@@ -1052,8 +1204,6 @@
         font-weight: 700;
         font-style: normal;
         margin-top: 9em;
-        line-height: 47.95px;
-        letter-spacing: 0.03em;
         text-align: left;
 
     }
@@ -1067,7 +1217,6 @@
     .overlap-container {
         position: relative;
         height: 125px;
-        margin-top: 5rem;
     }
 
     .number,
@@ -1100,12 +1249,13 @@
         top: 40px;
         left: 15%;
         width: 70%;
-        height: 185px;
+        height: 182px;
         z-index: 2;
     }
 
+
     .our {
-        margin-top: 21%;
+        margin-top: 23%;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
@@ -1113,51 +1263,66 @@
         font-size: 35px;
     }
 
+
     .absolute {
-        position: absolute;
-        bottom: -225rem;
-        right: 0;
-        width: 80%;
-        padding-right: 1rem;
+        position: sticky;
         display: flex;
-        gap: 4rem;
-        justify-content: flex-end;
-        align-items: flex-end;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+        padding: 0;
     }
 
+
+    .box-12 {
+        background-image: none;
+    }
 
     .overlap {
         position: relative;
         height: 300px;
-        margin-top: -5rem;
-
+        margin-top: 0rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .h2step10 {
         font-size: 25px;
     }
 
+    .card1,
+    .card2,
+    .card3 {
+        height: 209px;
+        width: 197px;
+    }
+
     #step9 {
-        margin-top: 44rem;
+        margin-top: 37rem;
         background-repeat: no-repeat;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
     }
 
-    .card {
-        height: 184px;
-        width: 100%;
-
-
-    }
-
     .maincc {
         margin-top: 0;
     }
 
+    .box-13 {
+        position: absolute;
+        top: 0px;
+        /* left: 15%; */
+        right: 0%;
+        width: 100%;
+        background: none;
+        height: 341px;
+        z-index: 2;
+    }
+
     .our11 {
-        margin-top: 24rem;
+        margin-top: -5rem;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
@@ -1166,102 +1331,6 @@
     }
 
     .step8h2 {
-        font-size: 26px;
-
-    }
-
-    #step9 img {
-        max-width: 100%;
-        height: auto;
-        margin-top: 4rem;
-    }
-}
-
-@media (max-width: 1440px)  {
-    .absolute {
-        position: absolute;
-        bottom: -277rem;
-        right: 0;
-        width: 80%;
-        padding-right: 1rem;
-        display: flex;
-        gap: 4rem;
-        justify-content: flex-end;
-        align-items: flex-end;
-    }
-} */
-@media (min-width: 1024px) and (max-width: 1222px) {
-    .our11 {
-        margin-top: 24rem;
-        font-family: "League Spartan", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 35px;
-
-    }
-
-    .topp {
-        font-size: 2rem;
-    }
-
-    #h2 {
-        font-size: 21px;
-        line-height: normal;
-        text-align: left;
-    }
-
-    #step3 img {
-        max-width: 100%;
-        height: auto;
-        margin-top: 3rem;
-    }
-
-    #bg {
-        font-size: 20px;
-        font-family: "League Spartan", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    .our {
-        margin-top: 38%;
-        font-family: "League Spartan", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 35px;
-    }
-
-    .absolute {
-        position: absolute;
-        bottom: -277rem;
-        right: 0;
-        width: 73%;
-        padding-right: 1rem;
-        display: flex;
-        gap: 1rem;
-        justify-content: flex-end;
-        align-items: flex-end;
-    }
-
-    .card {
-        height: 200px;
-        width: 330px;
-        padding: 1rem;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        border-radius: 5px;
-        justify-content: flex-end;
-    }
-
-    .step8h2 {
-        font-size: 26px;
-    }
-
-    #step9 img {
-        max-width: 100%;
-        height: auto;
-        margin-top: 4rem;
+        font-size: 18px;
     }
 }
