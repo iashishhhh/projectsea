@@ -227,7 +227,7 @@ h3 {
 }
 
 #bg {
-    font-size: 35px;
+    font-size: 25px;
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -239,6 +239,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 520px;
 }
 
 .p2txt {
@@ -266,6 +267,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 520px;
 
 }
 
@@ -302,7 +304,7 @@ h3 {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    margin-top: 14em;
+    margin-top: 21em;
     text-align: left;
 
 }
@@ -316,7 +318,7 @@ h3 {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    margin-top: 14em;
+    margin-top: 21em;
     text-align: left;
 
 }
