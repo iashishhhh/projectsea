@@ -20,6 +20,10 @@ body {
     right: 0%;
 }
 
+.logo {
+    width: 297px;
+}
+
 .header {
     font-family: "Barlow", sans-serif;
     font-weight: 100;
@@ -105,81 +109,12 @@ body {
 
 
 
-/* Hero section styles */
-
-@media (max-width: 992px) {
-
-    #navbarhead {
-        padding: 5px;
-
-    }
-
-    .btnhead {
-        color: white;
-        background-color: #FF696A;
-        width: 223px;
-        height: 49px;
-        border: none;
-        font-size: 20px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    .top {
-        font-size: 2rem;
-    }
-
-    .header {
-        background-image: url(imgbg/Homehero.jpg);
-        background-repeat: no-repeat;
-        width: 100%;
-        background-position: left;
-        height: auto;
-        padding-bottom: 3rem;
-    }
-
-    .btntop {
-        margin-bottom: 1rem;
-    }
-
-    .btnour {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-
-@media (max-width: 800px) {
-
-    .headerh2 {
-        font-size: 2.0rem;
-        width: 100%;
-    }
-
-    .headerp {
-        font-size: 1rem;
-        max-width: 100%;
-    }
-
-    .btnour {
-        font-size: 14px;
-        width: 10em;
-    }
-}
-
-@media (max-width:800px) {
-    .navbar-brand img {
-        width: 150px;
-        height: auto;
-    }
-}
 
 .col2 {
     text-align: center;
 }
 
-
-
+*/
 /* STEP 2 CHOOSE US */
 
 .circlebg {
@@ -218,6 +153,10 @@ body {
     height: 487px;
 }
 
+.circlebg {
+    background-color: #6493e3b6;
+}
+
 #color3 {
     background-color: #6493e36e;
     height: 487px;
@@ -229,7 +168,7 @@ body {
 }
 
 #color5 {
-    background-color: #6492E31A;
+    background-color: #005cff36;
     height: 487px;
 }
 
@@ -364,8 +303,6 @@ h3 {
     font-weight: 700;
     font-style: normal;
     margin-top: 14em;
-    line-height: 47.95px;
-    letter-spacing: 0.03em;
     text-align: left;
 
 }
@@ -380,106 +317,11 @@ h3 {
     font-weight: 700;
     font-style: normal;
     margin-top: 14em;
-    line-height: 47.95px;
-    letter-spacing: 0.03em;
     text-align: left;
 
 }
 
 
-
-@media (max-width: 800px) {
-    .p2txt {
-        font-size: 13px;
-        text-align: center;
-        justify-content: center;
-
-    }
-
-
-
-    #bg {
-        font-size: 20px;
-        padding-top: 3rem;
-    }
-
-    #img2 {
-        padding: 15px;
-        text-align: center;
-        height: 100vh;
-        text-align: center;
-        background-image: url(imgbg/rescueboard.jpeg);
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: cover;
-    }
-
-
-    #img2 .txt {
-        font-size: 1.2rem;
-        padding: 10px 0;
-        margin: 0 auto;
-    }
-
-    #img3 .txt {
-        font-size: 1.2rem;
-        padding: 10px 0;
-        margin: 0 auto;
-    }
-
-    #img3 {
-        padding: 15px;
-        height: 100vh;
-        text-align: center;
-    }
-
-
-
-
-    .txt {
-        width: fit-content;
-        height: auto;
-    }
-
-    #imgg1,
-    #imgg2,
-    #imgg3 {
-        max-width: 100%;
-        height: fit-content;
-    }
-
-    #txt1 {
-        font-size: 25px;
-        background-color: #6492E3CC;
-        height: auto;
-        width: fit-content;
-        font-family: "League Spartan", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-        margin-top: 9em;
-        line-height: 47.95px;
-        letter-spacing: 0.03em;
-        text-align: left;
-
-    }
-
-    #txt2 {
-        font-size: 25px;
-        background-color: #6492E3CC;
-        height: auto;
-        width: fit-content;
-        font-family: "League Spartan", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-        margin-top: 9em;
-        line-height: 47.95px;
-        letter-spacing: 0.03em;
-        text-align: left;
-
-    }
-}
 
 /* STEP 5 OVERLAPPING ELEMENTS */
 
@@ -502,10 +344,11 @@ h3 {
 .box-2 {
     position: absolute;
     top: 80px;
-    left: 15%;
-    width: 70%;
+    left: 16%;
+    width: 68%;
     height: 341px;
     z-index: 2;
+    object-fit: cover;
 }
 
 .image5 {
@@ -546,44 +389,6 @@ h3 {
 
 
 
-@media (max-width: 768px) {
-    .box-1 h2 {
-        font-size: 1.2rem;
-        padding-top: 10px;
-        margin-top: 10px;
-    }
-
-    .overlap-container {
-        position: relative;
-        height: 125px;
-    }
-
-    .number,
-    .contact {
-        font-size: 0.9rem;
-        padding: 8px 12px;
-        margin: 5px auto;
-        display: inline-block;
-    }
-
-    /* Image box adjustments */
-    .image5 {
-        height: 200px;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .box-2 {
-        position: absolute;
-        top: 40px;
-        left: 15%;
-        width: 70%;
-        height: 120px;
-        z-index: 2;
-    }
-
-}
-
 /* STEP 6 */
 .our {
     margin-top: 30%;
@@ -610,45 +415,6 @@ h3 {
     font-weight: 400;
 }
 
-@media (max-width: 992px) {
-    .txtour {
-        text-align: start;
-        padding-top: 1rem;
-    }
-
-    .our {
-        font-size: 1.5rem;
-        margin-top: 24rem;
-    }
-
-    .our11 {
-        font-size: 1.5rem;
-        margin-top: 24rem;
-    }
-
-
-
-}
-
-@media (max-width: 992px) {
-    .txtour {
-        font-size: 14px;
-
-    }
-
-    .our .our1 {
-        font-size: 28px;
-
-    }
-
-}
-
-
-@media (min-width: 992px) {
-    .slider {
-        padding: 3rem 0;
-    }
-}
 
 /* Image Grid Item Styling */
 .slider {
@@ -694,8 +460,11 @@ h3 {
 
 .card-container {
     display: flex;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 4rem;
+    margin-top: -22rem;
+    padding-right: 9rem;
+    justify-content: flex-end;
+
 }
 
 .custom-card {
@@ -755,50 +524,7 @@ h3 {
 
 
 
-/* Responsive adjustments */
 
-
-
-@media (max-width: 992px) {
-
-
-    .card {
-        width: 180px;
-    }
-}
-
-@media (max-width: 768px) {
-
-    .absolute {
-        position: static;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-        margin-top: 1rem;
-        padding: 0;
-    }
-
-    .card {
-        width: 100%;
-        max-width: 300px;
-    }
-}
-
-@media (max-width: 576px) {
-    .absolute {
-        padding: 0.5rem;
-    }
-
-    .card {
-        font-size: 0.9rem;
-        padding: 0.8rem;
-    }
-
-    .slickimg {
-        max-width: 80%;
-    }
-}
 
 /* step9 overlapping another elements  */
 
@@ -816,33 +542,6 @@ h3 {
 
 }
 
-@media (max-width: 768px) {
-    #step9 {
-        padding: 71rem;
-        background-repeat: no-repeat;
-        font-family: "League Spartan", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        padding-bottom: 2rem;
-    }
-}
-
-@media (max-width: 576px) {
-    #step9 {
-        padding: 83rem;
-        background-repeat: no-repeat;
-        font-family: "League Spartan", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        padding-bottom: 0rem;
-    }
-
-    #h29 {
-        padding-top: 6rem;
-    }
-
-
-}
 
 /* STEP 10 */
 .overlap {
@@ -909,47 +608,6 @@ h3 {
 }
 
 
-
-
-
-@media (max-width: 576px) {
-    .box-12 {
-        background-image: none;
-    }
-
-    .overlap {
-        position: relative;
-        height: 300px;
-        margin-top: 17rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
-    .h2step10 {
-        font-size: 25px;
-    }
-}
-
-@media (max-width: 426px) {
-    .overlap {
-        position: relative;
-        height: 300px;
-        /* margin-left: 6rem; */
-    }
-
-    .tt {
-        font-size: 14px;
-        font-family: "Barlow", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        text-align: start;
-    }
-
-    .nav1 {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-}
 
 /* step12 */
 
