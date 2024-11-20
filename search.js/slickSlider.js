@@ -41,7 +41,7 @@ $(document).ready(function () {
     const toggler = $('.navbar-toggler');
     const navbarCollapse = $('#navbarSupportedContent');
 
-    toggler.on('click', function () {
+    toggler.on('click', function () {   
         $(this).toggleClass('toggler-open');
         navbarCollapse.toggleClass('animated-navbar');
     });
@@ -54,6 +54,7 @@ $(document).ready(function () {
         }
     });
 });
+        
 
 
 
