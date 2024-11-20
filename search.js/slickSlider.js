@@ -36,7 +36,7 @@ $(document).ready(function () {
 });
 
 
-
+//toggle change
 $(document).ready(function () {
     const toggler = $('.navbar-toggler');
     const navbarCollapse = $('#navbarSupportedContent');
