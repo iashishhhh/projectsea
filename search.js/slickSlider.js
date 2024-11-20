@@ -41,21 +41,24 @@ $(document).ready(function () {
     const toggler = $('.navbar-toggler');
     const navbarCollapse = $('#navbarSupportedContent');
 
-    toggler.on('click', function () {   
-        $(this).toggleClass('toggler-open');
-        navbarCollapse.toggleClass('animated-navbar');
+    // Handle the toggler state when the navbar is expanded
+    navbarCollapse.on('shown.bs.collapse', function () {
+        toggler.addClass('toggler-open'); // Show open icon
     });
 
+    // Handle the toggler state when the navbar is collapsed
+    navbarCollapse.on('hidden.bs.collapse', function () {
+        toggler.removeClass('toggler-open'); // Reset to close icon
+    });
+
+    // Close the navbar when clicking outside
     $(document).on('click', function (event) {
         if (!navbarCollapse.is(event.target) && !navbarCollapse.has(event.target).length &&
             !toggler.is(event.target) && !toggler.has(event.target).length) {
-            navbarCollapse.removeClass('show animated-navbar');
-            toggler.removeClass('toggler-open'); // Reset icon with
+            navbarCollapse.collapse('hide'); // Properly collapse using Bootstrap method
         }
     });
 });
-        
-
 
 
 
