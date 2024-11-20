@@ -1,10 +1,18 @@
 @media (max-width: 320px) {
     .card {
-        height: 183px;
-        width: 157%;
+        height: 175px;
+        width: auto;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         border-radius: 5px;
         justify-content: flex-end;
+    }
+
+    .circle {
+        width: 85px;
+        height: 85px;
+        background-color: #d8d8d8;
+        border-radius: 50%;
+        margin: 0 auto 10px;
     }
 
     .card-container {
@@ -25,17 +33,25 @@
     }
 }
 
-@media (min-width: 427px) {
+@media (max-width: 425px) {
     .card {
         height: 246px;
-        width: 386px;
-        padding: 1rem;
+        width: auto;
+        /* padding: 1rem; */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         border-radius: 5px;
         justify-content: flex-end;
     }
-}
 
+    .card-container {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        margin-top: 0rem;
+        padding-right: 0rem;
+        justify-content: flex-end;
+    }
+}
 
 @media (min-width: 320px) and (max-width: 427px) {
 
@@ -44,14 +60,7 @@
 
     }
 
-    .card-container {
-        display: flex;
-        gap: 2rem;
-        flex-direction: column;
-        margin-top: -2rem;
-        padding-right: 1rem;
-        justify-content: flex-end;
-    }
+
 
     .btnhead {
         color: white;
@@ -326,11 +335,16 @@
     }
 
     #step9 {
-        margin-top: 85rem;
+        margin-top: 89rem;
         background-repeat: no-repeat;
         font-family: "League Spartan", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
+    }
+
+    .Copyright {
+        background-color: #6492E3;
+        font-size: 10px;
     }
 
 
@@ -425,7 +439,7 @@
     }
 
     .navbar-brand img {
-        width: 297px;
+        width: 192px;
         height: auto;
     }
 
@@ -1347,6 +1361,29 @@
     }
 }
 
+@media (min-width: 1024px) and (max-width: 1399px) {
+    .nav-link {
+        font-family: "Barlow", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        cursor: pointer;
+        color: black;
+        font-size: 11px;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .nav-link {
+        font-family: "Barlow", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        cursor: pointer;
+        color: black;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+}
 
 
 @media (min-width: 1024px) and (max-width: 1399px) {
@@ -1410,6 +1447,8 @@
         height: auto;
         padding-bottom: 3rem;
     }
+
+
 
     .btntop {
         margin-bottom: 0rem;
@@ -2037,5 +2076,333 @@
 
     .step8h2 {
         font-size: 18px;
+    }
+}
+
+
+@media (min-width: 426px) and (max-width: 499px) {
+    #navbarhead {
+        padding: 5px;
+
+    }
+
+    .card-container {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+        margin-top: -1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        justify-content: flex-end;
+    }
+
+    .card {
+        height: 176px;
+        width: 346px;
+        padding: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        justify-content: flex-end;
+    }
+
+    .btnhead {
+        color: white;
+        background-color: #FF696A;
+        width: 223px;
+        height: 49px;
+        border: none;
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .top {
+        font-size: 2rem;
+    }
+
+    .header {
+        background-image: url(imgbg/Homehero.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: left;
+        height: auto;
+        padding-bottom: 3rem;
+    }
+
+    .btntop {
+        margin-bottom: 1rem;
+    }
+
+    .btnour {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .headerh2 {
+        font-size: 2.0rem;
+        width: 100%;
+    }
+
+    .headerp {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .btnour {
+        font-size: 14px;
+        width: 10em;
+    }
+
+    .navbar-brand img {
+        width: 162px;
+        height: auto;
+    }
+
+    #color1 {
+        background-color: #6492E3;
+        height: auto;
+
+        font-size: 45px;
+    }
+
+    .topp {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+
+    #h2 {
+        font-size: 21px;
+        line-height: revert;
+    }
+
+    #img2,
+    #img3 {
+        height: 400px;
+    }
+
+    #bgimg {
+        background: none;
+    }
+
+    #step3 {
+        margin-top: 105rem;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+    }
+
+    .p2txt {
+        font-size: 13px;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+
+
+    #bg {
+        font-size: 20px;
+        padding-top: 3rem;
+    }
+
+    #img2 {
+        text-align: center;
+        height: 100vh;
+        text-align: center;
+        background-image: url(imgbg/rescueboard.jpeg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+    }
+
+
+    #img2 .txt {
+        font-size: 1.2rem;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+
+    #img3 .txt {
+        font-size: 1.2rem;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+
+    #img3 {
+        height: 100vh;
+        text-align: center;
+    }
+
+
+
+
+    .txt {
+        width: fit-content;
+        height: auto;
+    }
+
+    #imgg1,
+    #imgg2,
+    #imgg3 {
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    #txt1 {
+        font-size: 25px;
+        background-color: #6492E3CC;
+        height: auto;
+        width: fit-content;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 9em;
+        line-height: 47.95px;
+        letter-spacing: 0.03em;
+        text-align: left;
+
+    }
+
+    #txt2 {
+        font-size: 25px;
+        background-color: #6492E3CC;
+        height: auto;
+        width: fit-content;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 9em;
+        line-height: 47.95px;
+        letter-spacing: 0.03em;
+        text-align: left;
+
+    }
+
+    .box-1 h2 {
+        font-size: 1.2rem;
+        margin-top: 4rem;
+
+    }
+
+    .overlap-container {
+        position: relative;
+        height: 125px;
+    }
+
+    .number,
+    .contact {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+        margin: 5px auto;
+        display: inline-block;
+    }
+
+
+    .image5 {
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .box-1 {
+        position: absolute;
+        top: 90%;
+        left: 0;
+        width: 100%;
+        height: 266px;
+        background-color: #6492E3CC;
+        z-index: 1;
+    }
+
+    .box-2 {
+        position: absolute;
+        top: 40px;
+        left: 15%;
+        width: 70%;
+        height: 120px;
+        z-index: 2;
+    }
+
+    .our {
+        margin-top: 38%;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 35px;
+    }
+
+
+    .absolute {
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+        padding: 0;
+    }
+
+
+    .box-12 {
+        background-image: none;
+    }
+
+    .overlap {
+        position: relative;
+        height: 300px;
+        margin-top: 11rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .h2step10 {
+        font-size: 25px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        height: 209px;
+        width: 197px;
+    }
+
+    #step9 {
+        margin-top: 43rem;
+        background-repeat: no-repeat;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+    }
+
+    .maincc {
+        margin-top: 0;
+    }
+
+    .box-13 {
+        position: absolute;
+        top: 0px;
+        /* left: 15%; */
+        right: 0%;
+        width: 100%;
+        background: none;
+        height: 341px;
+        z-index: 2;
+    }
+
+    .our11 {
+        margin-top: 9rem;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 35px;
+    }
+
+    .step8h2 {
+        font-size: 14px;
     }
 }
