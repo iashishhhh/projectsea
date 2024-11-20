@@ -362,6 +362,10 @@
         font-style: normal;
         font-size: 35px;
     }
+
+    #content {
+        text-align: start;
+    }
 }
 
 
@@ -1784,6 +1788,7 @@
 
     }
 
+
     .card-container {
         display: flex;
         gap: 1rem;
@@ -2101,7 +2106,7 @@
     }
 
     .step8h2 {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 

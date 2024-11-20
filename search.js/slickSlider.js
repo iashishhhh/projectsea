@@ -41,18 +41,16 @@ $(document).ready(function () {
     const toggler = $('.navbar-toggler');
     const navbarCollapse = $('#navbarSupportedContent');
 
-    // Toggle the class for the cross icon with animation
     toggler.on('click', function () {
-        $(this).toggleClass('toggler-open'); // Add/remove the toggler-open class
-        navbarCollapse.toggleClass('animated-navbar'); // Add animation class to the navbar
+        $(this).toggleClass('toggler-open');
+        navbarCollapse.toggleClass('animated-navbar');
     });
 
-    // Optional: Close the navbar and reset the icon when clicking outside
     $(document).on('click', function (event) {
         if (!navbarCollapse.is(event.target) && !navbarCollapse.has(event.target).length &&
             !toggler.is(event.target) && !toggler.has(event.target).length) {
             navbarCollapse.removeClass('show animated-navbar');
-            toggler.removeClass('toggler-open'); // Reset the icon
+            toggler.removeClass('toggler-open'); // Reset icon with
         }
     });
 });
