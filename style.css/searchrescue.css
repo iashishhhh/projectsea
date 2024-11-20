@@ -9,8 +9,6 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    scrollbar-width: auto;
-    scrollbar-color: white black;
 }
 
 body {
@@ -130,6 +128,7 @@ body {
     margin: 0 auto 10px;
 }
 
+
 #bgimg {
     background-image: url(imgbg/PODbg.jpg);
     height: 487px;
@@ -195,6 +194,10 @@ h3 {
     font-weight: 700;
 }
 
+#content {
+    text-align: end;
+}
+
 #step3 img {
     max-width: 100%;
     height: auto;
@@ -204,7 +207,6 @@ h3 {
     font-size: 35px;
     line-height: 47.95px;
     letter-spacing: 0.03em;
-    text-align: left;
 
 }
 
@@ -611,10 +613,9 @@ h3 {
 
 
 /* step12 */
-
 .fourcol {
-    height: 326px;
-    width: 326px;
+    height: 212px;
+    width: 312px;
     background-color: #C4C4C4;
 }
 
@@ -679,4 +680,10 @@ h3 {
 .slickimg {
     max-width: 75%;
     height: auto;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
 }
