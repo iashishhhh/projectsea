@@ -1392,6 +1392,16 @@
 }
 
 
+@media (min-width: 893px) and (max-width: 1024px) {
+    .fourcol {
+        height: 195px;
+        width: 203px;
+        background-color: #C4C4C4;
+    }
+}
+
+
+
 @media (min-width: 1024px) and (max-width: 1399px) {
     #navbarhead {
         padding: 5px;
@@ -1399,8 +1409,8 @@
     }
 
     .fourcol {
-        height: 227px;
-        width: 276px;
+        height: 195px;
+        width: 279px;
         background-color: #C4C4C4;
     }
 
@@ -1408,11 +1418,8 @@
         text-align: start;
     }
 
-    .fourcol {
-        height: 326px;
-        width: 280px;
-        background-color: #C4C4C4;
-    }
+
+
 
     .btntop {
         color: white;
@@ -1771,13 +1778,12 @@
 
 
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .fourcol {
-        height: 212px;
-        width: 312px;
+        height: 195px;
+        width: 236px;
         background-color: #C4C4C4;
     }
-
 
 }
 
