@@ -1102,7 +1102,7 @@
     }
 
     .navbar-brand img {
-        width: 297px;
+        width: 200px;
         height: auto;
     }
 
@@ -1376,7 +1376,7 @@
 @media (min-width: 1200px) and (max-width: 1399px) {
     .nav-link {
         font-family: "Barlow", sans-serif;
-        font-weight: 600;
+        font-weight: 00;
         font-style: normal;
         cursor: pointer;
         color: black;
@@ -1827,7 +1827,7 @@
     }
 
     .navbar-brand img {
-        width: 297px;
+        width: 200px;
         height: auto;
     }
 
