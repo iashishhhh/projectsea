@@ -55,7 +55,7 @@ $(document).ready(function () {
     $(document).on('click', function (event) {
         if (!navbarCollapse.is(event.target) && !navbarCollapse.has(event.target).length &&
             !toggler.is(event.target) && !toggler.has(event.target).length) {
-            navbarCollapse.collapse('hide'); // Properly collapse using Bootstrap method
+            navbarCollapse.collapse('hide'); 
         }
     });
 });

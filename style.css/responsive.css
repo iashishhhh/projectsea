@@ -2444,20 +2444,3 @@
     }
 }
 
-.navbar-toggler.toggler-open .navbar-toggler-icon {
-    background-image: url(imgbg/close.png);
-
-
-}
-
-.navbar-toggler-icon {
-    width: 44px;
-}
-
-.navbar-toggler .navbar-toggler-icon {
-    background-image: url(imgbg/text.png);
-}
-
-.navbar-toggler {
-    border: none;
-}
