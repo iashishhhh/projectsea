@@ -1778,7 +1778,7 @@
 
 
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .fourcol {
         height: 195px;
         width: 236px;
