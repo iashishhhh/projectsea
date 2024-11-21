@@ -39,18 +39,19 @@ $(document).ready(function () {
 
 // open and close toggle 
 $(document).ready(function () {
+    // Define Variables for Navbar Elements --1
     const toggler = $('.navbar-toggler');
     const navbarCollapse = $('#navbarSupportedContent');
-
+    // open Navbar
     navbarCollapse.on('shown.bs.collapse', function () {
         toggler.addClass('toggler-open'); // Show open icon
     });
-
+    // close navbar
     navbarCollapse.on('hidden.bs.collapse', function () {
         toggler.removeClass('toggler-open'); // Reset to close icon
     });
 
-    // Close the navbar when clicking outside
+    // Close the navbar when click outside  document
     $(document).on('click', function (event) {
         if (!navbarCollapse.is(event.target) && !navbarCollapse.has(event.target).length &&
             !toggler.is(event.target) && !toggler.has(event.target).length) {
