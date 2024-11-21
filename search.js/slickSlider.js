@@ -38,30 +38,26 @@ $(document).ready(function () {
 
 
 // open and close toggle 
-document.addEventListener('DOMContentLoaded', function () {
-    const toggler = document.querySelector('.navbar-toggler');
-    const navbarCollapse = document.getElementById('navbarSupportedContent');
+$(document).ready(function () {
+    const toggler = $('.navbar-toggler');
+    const navbarCollapse = $('#navbarSupportedContent');
 
-    //  navbar is opened
-    navbarCollapse.addEventListener('shown.bs.collapse', function () {
-        toggler.classList.add('toggler-open'); // Show open icon
+    navbarCollapse.on('shown.bs.collapse', function () {
+        toggler.addClass('toggler-open'); // Show open icon
     });
 
-    //  navbar is closed
-    navbarCollapse.addEventListener('hidden.bs.collapse', function () {
-        toggler.classList.remove('toggler-open'); // Reset to close icon
+    navbarCollapse.on('hidden.bs.collapse', function () {
+        toggler.removeClass('toggler-open'); // Reset to close icon
     });
 
     // Close the navbar when clicking outside
-    document.addEventListener('click', function (event) {
-        if (!navbarCollapse.contains(event.target) &&
-            !toggler.contains(event.target)) {
-            // Collapse the navbar
-            $(navbarCollapse).collapse('hide');  //hide when click outside the document
+    $(document).on('click', function (event) {
+        if (!navbarCollapse.is(event.target) && !navbarCollapse.has(event.target).length &&
+            !toggler.is(event.target) && !toggler.has(event.target).length) {
+            navbarCollapse.collapse('hide'); // Properly collapse using Bootstrap method
         }
     });
 });
- 
 
 
 
