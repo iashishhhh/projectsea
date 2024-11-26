@@ -700,3 +700,55 @@ h3 {
 .navbar-toggler {
     border: none;
 }
+
+input {
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    font-weight: normal;
+}
+
+
+.btnnn {
+    margin-right: 68rem;
+    width: 111px;
+    height: 46px;
+    background-color: #FF696A;
+    border-radius: 12px;
+    color: white;
+    font-weight: normal;
+    border: none;
+}
+
+.form-control {
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+}
+
+i {
+    font-size: 30px;
+
+}
+
+.contact-box {
+    /* background-color: #d4d4e92e; */
+    height: 14rem;
+    width: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+
+}
+
+.content h1 {
+    font-size: 32px;
+}
+
+.content a {
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+}

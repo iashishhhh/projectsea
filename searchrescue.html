@@ -11,7 +11,12 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css/searchrescue.css">
     <link rel="stylesheet" href="style.css/responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- flaticon cdn  -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- slickslider link  -->
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
@@ -24,10 +29,10 @@
 </head>
 
 <body>
-    <div class="container-fluid header ">
+    <div class="container-fluid header">
         <nav class="navbar navbar-expand-lg fixed-top pt-0">
             <div class="container bg-white mt-lg-3">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#top">
                     <img src="images/logo.png" class="img-fluid logo" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -38,25 +43,25 @@
                 <div class="collapse navbar-collapse text-black text-start" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-0 px-0 mb-2 mb-lg-0 text-start mx-0 px-0 ">
                         <li class="nav-item">
-                            <a class="nav-link text-black" aria-current="page" href="#">Home</a>
+                            <a class="nav-link text-black" aria-current="page" href="#top">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-black" href="#">About</a>
+                            <a class="nav-link text-black" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">What we do</a>
+                            <a class="nav-link" href="#step4">What we do</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Training & Education</a>
+                            <a class="nav-link" href="#Educate">Training & Education</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Get Involved</a>
+                            <a class="nav-link" href="#step5">Get Involved</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Boating Tips & Safety</a>
+                            <a class="nav-link" href="#step8">Boating Tips & Safety</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contactus">Contact</a>
                         </li>
                     </ul>
                     <!-- Button aligned to the right -->
@@ -64,7 +69,7 @@
                 </div>
             </div>
         </nav>
-        <div class="container">
+        <div class="container" id="top">
             <div class="row mx-0 px-0">
                 <div class="col-lg-6 px-0 mx-0">
                     <h2 class="headerh2">SA SEA RESCUE <br> SQUADRON</h2>
@@ -75,7 +80,6 @@
             </div>
         </div>
     </div>
-
     <!-- why choose us section  STEP 2-->
     <div class="container-fluid text-center text-uppercase px-0 pt-lg-0 " id="bgimg">
         <div class="row w-100 mx-0"> <!-- Removed px-0 and added mx-0 to remove all margins -->
@@ -110,13 +114,16 @@
             <div class="col-lg-2 col-md-4 col-sm-12 d-flex flex-column align-items-center justify-content-center text-center px-0"
                 id="color5">
                 <div class="circle"></div>
+
                 <h3>61</h3>
                 <p class="txtup">YEARS OF OPERATION</p>
+                <div id="about"></div>
             </div>
         </div>
     </div>
 
     <!-- step  3-->
+
     <div class="container ps-2 pe-3 ms-auto me-auto mb-5 py-3 px-3 step3" id="step3">
         <div class="row mt-4 pt-5 mx-0">
             <div class="col-lg-6 col-sm-12 col-md-12 mt-lg-1 pt-3 px-0 mx-0 ">
@@ -143,8 +150,9 @@
             </div>
         </div>
     </div>
+
     <!-- Section STEP 4 -->
-    <div class="container-fluid ps-0 pe-0" id="step4">
+    <div class="container-fluid ps-0 pe-0 mt-lg-5 pt-lg-5" id="step4">
         <div class="row g-0 mx-0">
             <div class="col-lg-6 col-md-12  col-sm-12  align-items-start justify-content-center mt-g-5 pt-lg-5 "
                 id="steph">
@@ -155,11 +163,15 @@
                     <p class="p2txt text-start  fw-normal  text-white mx-lg-5    "> Adipisicing anim ea commodo ea
                         consequat duis sunt amet sit in. Nostrud fugiat commodo sint excepteur deserunt exercitation
                         officia. Tempor dolor aliquip irure culpa non ut amet elit
-                        id officia do anim. Officia est id nulla laboris cillum aliqua. Aliquip ad aliqua exercitation
-                        nulla ex. Exercitation do quis nulla elit ex veniam officia sit amet magna. Eu pariatur veniam
+                        id officia do anim. Officia est id nulla laboris cillum aliqua. Aliquip ad aliqua
+                        exercitation
+                        nulla ex. Exercitation do quis nulla elit ex veniam officia sit amet magna. Eu pariatur
+                        veniam
                         est
-                        deserunt aute anim. Sit tempor sit tempor sit tempor laboris cillum commodo ipsum sint tempor
-                        sint qui. Exercitation consectetur minim consequat cupidatat in irure excepteur laboris fugiat
+                        deserunt aute anim. Sit tempor sit tempor sit tempor laboris cillum commodo ipsum sint
+                        tempor
+                        sint qui. Exercitation consectetur minim consequat cupidatat in irure excepteur laboris
+                        fugiat
                         nostrud magna cupidatat aute dolore. Duis dolor incididunt mollit elit est quis sunt duis
                         nostrud velit
                         magna.</p>
@@ -189,10 +201,9 @@
         </div>
     </div>
 
-
     <!-- step5  Overlapping Elements -->
-
-    <div class="container-fluid px-0 text-center ">
+    <div id="step5"></div>
+    <div class="container-fluid px-0 text-center mt-lg-5  pt-lg-5  ">
         <div class="overlap-container mb-lg-5 py-lg-5">
             <div class="box-1 d-flex flex-column justify-content-center align-items-center text-white text-center">
                 <h2 class="text-uppercase pt-lg-5 mt-lg-5 step5h2">Support OUR Organisation and donate today</h2>
@@ -206,11 +217,8 @@
             </div>
             <div class="container box-2 d-flex justify-content-center align-items-center text-white px-3 image5">
             </div>
-
         </div>
     </div>
-
-
 
 
     <!-- STEP 6  -->
@@ -286,7 +294,7 @@
     </div>
 
     <!-- STEP8 OUR VOLUNTEER -->
-    <div class="container-fluid text-center step8 py-5 mb-5 px-0">
+    <div class="container-fluid text-center step8 py-5 mb-5 px-0" id="step8">
         <div class="row justify-content-start mx-0">
             <div class="col-lg-4 col-md-12 col-sm-12  step8img">
             </div>
@@ -331,8 +339,10 @@
                         <h2 class="text-white step8h2">Donations</h2>
                     </div>
                 </div>
+                <div id="Educate"></div>
             </div>
         </div>
+
     </div>
 
     <!-- STEP9  -->
@@ -395,41 +405,130 @@
             <div class="col-lg-3 col-md-12 fourcol" id="for2"></div>
             <div class="col-lg-3 col-md-12 fourcol" id="for3"></div>
             <div class="col-lg-3 col-md-12 fourcol " id="for4"></div>
+            <div id="contactus" style="height: 20px;"></div>
+        </div>
+    </div>
+
+    <!-- Contact Us Form -->
+    <div class="container-fluid form ">
+        <div class="container py-5">
+            <div class="row  py-5">
+                <div class="col-lg-4">
+                    <div class="contact-box bg-white">
+                        <div class="content-box mx-3 pt-5 px-5">
+                            <div class="icon">
+                                <i class="fa-regular fa-message"></i>
+                            </div>
+                            <div class="content pt-3">
+                                <h1>Quick email</h1>
+                                <a href=""> <span>searchrescue@gmail.com</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-box" style="background-color: #6492E3CC;">
+                        <div class="content-box  mx-3 pt-5 px-5">
+                            <div class="icon ">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="content">
+                                <div class="content pt-3">
+                                    <h1>Contact Us</h1>
+                                    <a href=""><span>(08) 8295 5072</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-box" style="background-color: #FF696A;">
+                        <div class="content-box mx-3 pt-5 px-5">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="content">
+                                <div class="content pt-3">
+                                    <h1>Address</h1>
+                                    <a href=""><span>Barcoo Road</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form id="ajaxForm" action="#" class="mx-4">
+                <h1 class=" mb-4">Fill the Form Below</h1>
+                <div class="row ">
+                    <!-- First Name -->
+                    <div class="col-lg-6 col-md-12 py-4">
+                        <input type="text" name="firstName" class="form-control" placeholder="First Name" required>
+                    </div>
+                    <!-- Last Name -->
+                    <div class="col-lg-6 col-md-12 py-4">
+                        <input type="text" name="lastName" class="form-control" placeholder="Last Name" required>
+                    </div>
+                    <!-- Email -->
+                    <div class="col-lg-6 col-md-12  py-4">
+                        <input type="email" name="email" class="form-control" placeholder="Email*" required>
+                    </div>
+                    <!-- Subject -->
+                    <div class="col-lg-6 col-md-12 py-4">
+                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <!-- Message -->
+                    <div class="col-lg-12 col-md-12  py-4">
+                        <textarea name="message" class="form-control" rows="5" placeholder="Your Message"
+                            required></textarea>
+                    </div>
+                    <!-- Submit Button -->
+                    <div class="col-lg-12 d-flex justify-content-center text-start py-2">
+                        <button type="submit" class="btn btn-primary px-5 py-2">Submit</button>
+                    </div>
+
+                </div>
+            </form>
         </div>
     </div>
 
     <!-- footer -->
-    <footer class="px-0 pt-lg-3 mt-lg-3 text-uppercase text-white ">
+    <footer class="px-0 pt-lg-3 mt-lg-3 text-uppercase text-white " id="footer">
         <div class="container-fluid footer w-100 mt-lg-3 mb-0">
             <div class="container mt-lg-3 pt-lg-3 ">
                 <div class="row justify-content-center align-items-start py-5 ">
                     <div class="col-lg-4 col-md-12 col-sm-12 mb-4 mx-0x">
                         <img src="images/logo.png" alt="Logo" class="img-fluid mb-3  logo">
-                        <p class="txtour text-start fw-bold ">Adipisicing anim ea commodo ea consequat duis sunt amet
+                        <p class="txtour text-start fw-bold ">Adipisicing anim ea commodo ea consequat duis sunt
+                            amet
                             sit
-                            in.Nostrud fugiat commodo sint excepteur deserunt exercitation officia. Tempor dolor aliquip
+                            in.Nostrud fugiat commodo sint excepteur deserunt exercitation officia. Tempor dolor
+                            aliquip
                             irure culpa non ut amet elit id officia do anim. Officia es.
                         </p>
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-sm-12 ">
                         <ul class="nav nav1 flex-column ms-1 ">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link-1 py-3 pt-0 ps-0  ">quick links</a>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link-1 py-3 pt-0 ps-0  ">quick
+                                    links</a>
                             </li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Home</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">About</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">News</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Contact</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Privacy Policy</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Terms & Conditions</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Terms & Conditions</a>
+                            </li>
                         </ul>
                     </div>
 
                     <div class="col-lg-2  col-md-6 col-sm-12">
                         <ul class="nav nav1 flex-column ms-1 ">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link-1 py-3 pt-0 ps-0   ">what we do</a>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link-1 py-3 pt-0 ps-0   ">what we
+                                    do</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Patrols & Rescue</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Patrols & Rescue</a>
+                            </li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Flotillas</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Coast Radio</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Ashes at sea</a></li>
@@ -441,10 +540,12 @@
                         <ul class="nav nav1 flex-column ms-1">
                             <li class="nav-item mb-2"><a href="#" class="nav-link-1 py-3 pt-0 ps-0 ">tRAINING &
                                     EDUCATION</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Training Programs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Training Programs</a>
+                            </li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Education Blogs</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Seasonal Safety</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link-1  p-0 py-2 ">GET INVOLVED</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link-1  p-0 py-2 ">GET INVOLVED</a>
+                            </li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Donate</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Volunteers</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 py-2">Memberships</a></li>
@@ -470,11 +571,13 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid text-center text-white pb-0 pt-2 Copyright">Search AND Rescue© Copyright 2024. All
-            Rights
-            Reserved.</div>
+        <div class="container-fluid text-center text-white pb-0 pt-2 Copyright">Search AND Rescue© Copyright 2024.
+            All
+            Rights Reserved.</div>
 
     </footer>
+
+
     <script src="search.js/slickSlider.js"></script>
 </body>
 
