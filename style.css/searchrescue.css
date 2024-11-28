@@ -769,9 +769,7 @@ i {
 
 /* form css */
 
-.form{
-background-color: white;
-}
+
 .h1form {
     text-align: center;
 }
@@ -782,7 +780,7 @@ background-color: white;
     border-radius: none;
     font-size: 1rem;
     color: #495057;
-    box-shadow: black 1px 1px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 2px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -806,10 +804,4 @@ textarea.form-control {
     font-weight: 500;
     text-transform: uppercase;
     transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-
-.form-container{
-    width: 50%;
-  
-}
+} 
