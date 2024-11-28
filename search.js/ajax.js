@@ -17,7 +17,7 @@ $("#ajaxForm").submit(function (e) {
     // Sending AJAX POST request
     $.ajax({
         type: "POST",
-        url: "HTTP//www.google.com/",
+        url: "https://getform.io/f/apjjxlga",
         data: JSON.stringify(data), // Sending serialized data as JSON
         contentType: "example/json", // JSON data content type
         headers: {
