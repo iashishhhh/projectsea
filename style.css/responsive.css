@@ -2449,14 +2449,24 @@
         font-size: 1.5rem;
     }
 }
+/* form css */
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .form-control {
+        font-size: 0.9rem;
+    }
 
-/* Button customization */
-.btn-primary {
-    background-color: #007bff;
-    border: none;
-    transition: background-color 0.3s ease;
+    form h1 {
+        font-size: 1.5rem;
+    }
+
+    .btnn {
+        font-size: 0.9rem;
+    }
 }
 
-.btn-primary:hover {
-    background-color: #0056b3;
+@media (max-width: 576px) {
+    .container {
+        padding: 0 15px;
+    }
 }

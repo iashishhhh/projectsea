@@ -752,3 +752,64 @@ i {
     text-transform: none;
     text-decoration: none;
 }
+
+.h1form {
+    font-size: 31px;
+    font-weight: 500
+}
+
+/* Button customization */
+.btnn {
+    background-color: #FF696A;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+
+/* form css */
+
+.form{
+background-color: white;
+}
+.h1form {
+    text-align: center;
+}
+
+/* Input fields */
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: none;
+    font-size: 1rem;
+    color: #495057;
+    box-shadow: black 1px 1px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #6492e3;
+    /* Highlight border color */
+    box-shadow: 0 0 5px rgba(100, 146, 227, 0.5);
+    outline: none;
+}
+
+textarea.form-control {
+    resize: vertical;
+    /* Allow resizing only vertically */
+}
+
+
+/* Submit button */
+.btnn {
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.form-container{
+    width: 50%;
+  
+}
