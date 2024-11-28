@@ -15,7 +15,7 @@ $("#ajaxForm").submit(function (e) {
     // Sending AJAX POST request
     $.ajax({
         type: "POST",
-        url: "https://formsubmit.co/Ashish1862ac@gmail.com",
+        url: "https://formsubmit.co/Ashishchaudharywork232@gmail.com",
         data: JSON.stringify(data), // Sending serialized data as JSON
         contentType: "example/json", // JSON data content type
         headers: {
@@ -23,12 +23,10 @@ $("#ajaxForm").submit(function (e) {
         }
     })
         .done(function (response) {
-            console.log("Form submitted successfully!", response);
             alert("Form submitted successfully!");
             $("#ajaxForm")[0].reset(); // Reset form fields
         })
         .fail(function (xhr, status, error) {
-            console.error("Error: ", status, error);
             alert("Error: Form submission failed. Please try again later.");
         });
 });

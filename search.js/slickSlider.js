@@ -68,5 +68,13 @@ document.querySelectorAll('.nav-link,navbar-brand').forEach(link => {
         targetSection.scrollIntoView({ behavior: 'smooth' });
     });
 });
-
+// for small screen auto close toggle when click any navigation tab
+document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+    link.addEventListener('click', function () {
+        const navbar = document.querySelector('.navbar-collapse');
+        if (navbar.classList.contains('show')) {
+            new bootstrap.Collapse(navbar).hide();
+        }
+    });
+});
 
