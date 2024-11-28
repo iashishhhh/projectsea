@@ -768,12 +768,12 @@ i {
 
 
 /* form css */
-.form {
+/* .form {
     background-color: #6492E3;
-}
+} */
 
 .h1form {
-    text-align: center;
+    text-align: start;
 }
 
 /* Input fields */

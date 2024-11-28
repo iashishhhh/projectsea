@@ -60,7 +60,7 @@ $(document).ready(function () {
 
 
 //js for screen smooth scrolling
-document.querySelectorAll('.nav-link').forEach(link => {
+document.querySelectorAll('.nav-link,navbar-brand').forEach(link => {
     link.addEventListener('click', function (e) {
         e.preventDefault();
         const targetId = this.getAttribute('href').substring(1);

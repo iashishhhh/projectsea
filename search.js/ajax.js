@@ -15,7 +15,7 @@ $("#ajaxForm").submit(function (e) {
     // Sending AJAX POST request
     $.ajax({
         type: "POST",
-        url: "",
+        url: "https://formsubmit.co/Ashish1862ac@gmail.com",
         data: JSON.stringify(data), // Sending serialized data as JSON
         contentType: "example/json", // JSON data content type
         headers: {
@@ -32,6 +32,7 @@ $("#ajaxForm").submit(function (e) {
             alert("Error: Form submission failed. Please try again later.");
         });
 });
+
 
 // code input clear field
 document.getElementById("ajaxForm").addEventListener("submit", function (event) {

@@ -1768,7 +1768,7 @@
 @media (min-width: 1400px) and (max-width: 1875px) {
     .card-container {
         display: flex;
-        gap: 0rem;
+        gap: 1rem;
         flex-direction: row;
         margin-top: -22rem;
         padding-right: 66px;
