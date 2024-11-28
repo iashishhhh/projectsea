@@ -768,7 +768,9 @@ i {
 
 
 /* form css */
-
+.form {
+    background-color: #6492E3;
+}
 
 .h1form {
     text-align: center;
@@ -804,4 +806,4 @@ textarea.form-control {
     font-weight: 500;
     text-transform: uppercase;
     transition: background-color 0.3s ease, transform 0.2s ease;
-} 
+}
