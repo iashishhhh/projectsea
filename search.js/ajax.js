@@ -2,8 +2,6 @@
 // Ajax submit form  .
 $("#ajaxForm").submit(function (e) {
     e.preventDefault(); // Default form submission
-
-    // Getting the form's action attribute
     var action = $(this).attr("action") || "/default-url";
     console.log("Action URL:", action);
 
