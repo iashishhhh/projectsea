@@ -30,8 +30,7 @@ $("#ajaxForm").submit(function (e) {
             alert("Error: Form submission failed. Please try again later.");
         });
 });
-
-
+    
 // code input clear field
 document.getElementById("ajaxForm").addEventListener("submit", function (event) {
     event.preventDefault();
@@ -42,5 +41,5 @@ document.getElementById("ajaxForm").addEventListener("submit", function (event) 
     inputs.forEach(function (input) {
         input.value = "";
     });
-  
+
 });
