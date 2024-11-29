@@ -42,5 +42,5 @@ document.getElementById("ajaxForm").addEventListener("submit", function (event) 
     inputs.forEach(function (input) {
         input.value = "";
     });
-
+  
 });
