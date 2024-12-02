@@ -1,36 +1,36 @@
+function sendFormData() {
+    var zhttp = new XMLHttpRequest();
+    var form = document.querySelector('#ajaxForm');
+    var inputs = form.querySelectorAll('input, textarea');
+    var myForm = new FormData();
 
-// Ajax submit form  .
-$("#ajaxForm").submit(function (e) {
-    e.preventDefault(); // Default form submission
-    var action = $(this).attr("action") || "/default-url";
-    console.log("Action URL:", action);
-
-    // Serializing form data
-    var data = {};
-    $(this).serializeArray().forEach(function (field) {
-        data[field.name] = field.value;
-    });
-    console.log("Serialized Data:", data);
-
-    // Sending AJAX POST request
-    $.ajax({
-        type: "POST",
-        url: "#",
-        data: JSON.stringify(data), // Sending serialized data as JSON
-        contentType: "example/json", // JSON data content type
-        headers: {
-            "Accept": "example/json"
+    inputs.forEach(function (input) {
+        if (input.name) {
+            myForm.append(input.name, input.value);
         }
-    })
-        .done(function (response) {
-            alert("Form submitted successfully!");
-            $("#ajaxForm")[0].reset(); // Reset form fields
-        })
-        .fail(function (xhr, status, error) {
-            alert("Error: Form submission failed. Please try again later.");
-        });
+    });
+    console.log("Form Data Submitted:", Object.fromEntries(myForm.entries()));
+    zhttp.onreadystatechange = function () {
+        if (this.readyState === 4) {
+            if (this.status === 201) {
+                console.log("Form Data Submit Successfully");
+                alert("Form Data Submit Successfully")
+          
+            } else {
+                console.log("Error: " + this.status + " - " + this.statusText);
+            }
+        }
+    };
+    zhttp.open("POST", "https://jsonplaceholder.typicode.com/todos", true);
+    zhttp.send(myForm);
+}
+
+// Adding an event listener to the form submit button
+document.querySelector('#ajaxForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    sendFormData();
 });
-    
+
 // code input clear field
 document.getElementById("ajaxForm").addEventListener("submit", function (event) {
     event.preventDefault();
