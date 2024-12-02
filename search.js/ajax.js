@@ -15,7 +15,7 @@ $("#ajaxForm").submit(function (e) {
     // Sending AJAX POST request
     $.ajax({
         type: "POST",
-        url: "https://formsubmit.co/Ashishchaudharywork232@gmail.com",
+        url: "#",
         data: JSON.stringify(data), // Sending serialized data as JSON
         contentType: "example/json", // JSON data content type
         headers: {
