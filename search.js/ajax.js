@@ -15,15 +15,15 @@ $("#ajaxForm").submit(function (e) {
     // Sending AJAX POST request
     $.ajax({
         type: "POST",
-        url: "https://formsubmit.co/Ashishchaudharywork232@gmail.com",
+        url: "https://getform.io/f/apjjlpra",
         data: JSON.stringify(data), // Sending serialized data as JSON
-        contentType: "application/json", // JSON data content type
+        contentType: "example/json", // JSON data content type
         headers: {
-            "Accept": "application/json"
+            "Accept": "example/json"
         }
     })
         .done(function (response) {
-            $('.success').addClass('is-active');
+            alert("Form submitted successfully!");
             $("#ajaxForm")[0].reset(); // Reset form fields
         })
         .fail(function (xhr, status, error) {
