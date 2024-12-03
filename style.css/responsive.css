@@ -2449,6 +2449,7 @@
         font-size: 1.5rem;
     }
 }
+
 /* form css */
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -2468,5 +2469,18 @@
 @media (max-width: 576px) {
     .container {
         padding: 0 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content a {
+        font-size: 15px;
+        color: black;
+        text-transform: none;
+        text-decoration: none;
+    }
+    .content h1 {
+        font-size: 25px;
+    
     }
 }
