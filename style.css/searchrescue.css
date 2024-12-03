@@ -801,11 +801,13 @@ textarea.form-control {
 
 
 /* Submit button */
-.btnn {
+.submit {
     border: none;
     font-size: 1rem;
+    background-color: #FF696A;
     font-weight: 500;
     text-transform: uppercase;
+    color: white;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 

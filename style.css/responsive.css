@@ -1403,20 +1403,8 @@
 
 
 @media (min-width: 1024px) and (max-width: 1399px) {
-    #navbarhead {
-        padding: 5px;
 
-    }
 
-    .fourcol {
-        height: 195px;
-        width: 279px;
-        background-color: #C4C4C4;
-    }
-
-    #content {
-        text-align: start;
-    }
 
 
 
@@ -1434,15 +1422,6 @@
         margin-right: 10px;
     }
 
-    .card-container {
-        display: flex;
-        gap: 1rem;
-        flex-direction: row;
-        margin-top: -13rem;
-        padding-left: 0rem;
-        padding-right: 5rem;
-        justify-content: flex-end;
-    }
 
     .card {
         height: 173px;
@@ -1453,107 +1432,14 @@
         justify-content: flex-end;
     }
 
-    .btnhead {
-        color: white;
-        background-color: #FF696A;
-        width: 223px;
-        height: 49px;
-        border: none;
-        font-size: 20px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
 
-    .top {
-        font-size: 2rem;
-    }
-
-    .header {
-        background-image: url(imgbg/Homehero.jpg);
-        background-repeat: no-repeat;
-        width: 100%;
-        background-position: left;
-        height: auto;
-        padding-bottom: 3rem;
-    }
-
-
-
-    .btntop {
-        margin-bottom: 0rem;
-    }
-
-    .btnour {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .headerh2 {
-        font-size: 2.0rem;
-        width: 100%;
-    }
-
-    .headerp {
-        font-size: 1rem;
-        max-width: 100%;
-    }
-
-    .btnour {
-        font-size: 14px;
-        width: 10em;
-    }
-
+    
     .navbar-brand img {
         width: 180px;
         height: auto;
     }
 
-    #color1 {
-        background-color: #6492E3;
-        height: auto;
 
-        font-size: 45px;
-    }
-
-    .topp {
-        font-size: 2rem;
-        padding-top: 1rem;
-    }
-
-    #h2 {
-        font-size: 17px;
-        line-height: revert;
-    }
-
-    #img2,
-    #img3 {
-        height: 400px;
-    }
-
-    #bgimg {
-        background: none;
-    }
-
-    .p2 {
-        font-size: 12px;
-        font-family: "Barlow", sans-serif;
-        font-weight: 400;
-    }
-
-    #step3 {
-        margin-top: 0rem;
-        font-family: "League Spartan", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-    }
-
-    .p2txt {
-        font-size: 13px;
-        text-align: center;
-        justify-content: center;
-
-    }
 
 
 
@@ -2479,8 +2365,9 @@
         text-transform: none;
         text-decoration: none;
     }
+
     .content h1 {
         font-size: 25px;
-    
+
     }
 }
